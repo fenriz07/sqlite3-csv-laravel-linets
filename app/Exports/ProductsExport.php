@@ -40,8 +40,6 @@ class ProductsExport implements FromCollection,WithHeadings
         {
             $configurations_variatons = '';
 
-  
-
             foreach ($model as $key_model => $product) {
 
                 $collect[$key] = [
@@ -60,13 +58,6 @@ class ProductsExport implements FromCollection,WithHeadings
 
         return collect($collect);
 
-        dd($collect);
-
-
-  
-        dd( Products::all()->groupBy('model') );
-        
-        return Products::all()->groupBy('model');
     }
 
     public function headings(): array
