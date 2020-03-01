@@ -1,4 +1,7 @@
 
+##Descripcion
+  Backend escrito en php bajo el framework laravel, el cual lee una base de datos sqlite y genera un csv basado en las instrucciones expuestas.
+
 ## Instrucciones
 
 - Clone este repositorio ```git clone git@github.com:fenriz07/sqlite3-csv-laravel-linets.git```

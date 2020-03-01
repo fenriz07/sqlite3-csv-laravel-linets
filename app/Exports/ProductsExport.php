@@ -21,6 +21,7 @@ class ProductsExport implements FromCollection,WithHeadings
 
         $productsGroup = Products::all()->groupBy('model');
 
+
         $productsGroup->each( function( $products,$key) use (&$collectProducts) {
             $collectProducts[$key] = [];
             
