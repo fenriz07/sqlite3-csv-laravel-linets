@@ -1,6 +1,7 @@
 
-##Descripcion
-  Backend escrito en php bajo el framework laravel, el cual lee una base de datos sqlite y genera un csv basado en las instrucciones expuestas.
+## Descripción
+
+- Backend escrito en php bajo el framework laravel, el cual lee una base de datos sqlite y genera un csv basado en las instrucciones expuestas.
 
 ## Instrucciones
 
