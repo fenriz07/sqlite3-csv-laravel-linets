@@ -5,7 +5,7 @@
 
 ## Instrucciones
 
-- Clone este repositorio ```git clone git@github.com:fenriz07/sqlite3-csv-laravel-linets.git```
+- Clone este repositorio o descargelo
 - Entre al directorio raíz del repositorio. ```cd sqlite3-csv-laravel-linets```
 - Ejecute ```docker-compose up```
 - El proyecto expondrá el puerto ```8000```
